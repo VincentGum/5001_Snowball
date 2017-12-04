@@ -1,0 +1,31 @@
+1. task_1 fold contains code for task_1:
+
+    a. run task_1.py as the main;
+    b. stock_rsi.py would read quote.csv and transform it into features we need;
+    c. states_1.py would generate the feature of the whole market and take it as state set
+    d. q_1.py is the q-learning module
+    e. output_1.py is separate from the the py file above, transform the output file into
+       the form we use to backtest.
+
+    Therefore, just run task_1.py and output_1.py.
+
+2. task_3 fold contains code for task_3:
+
+    a. run task_3.py as the main;
+    b. states_3.py would generate the feature of the whole market and take it as state set
+    c. q_3.py is the q-learning module
+    d. output_3.py is separate from the the py file above, transform the output file into
+       the form we use to backtest.
+
+    Therefore, just run task_3.py and output_3.py.
+
+3. fold 'Snowball' contains all the csv files
+
+4. fold 'preprocess' contains code we wrote to extract features and do the starting analysis
+   (which is no more use for the main part)
+
+5. fold 'generated_data' csv files for features we extracted before
+
+Team member: Xu Min, Li Linrui, Chen Jinren, Gan Weisen.
+
+2017.12.3 Sat in HKUST Library lg1
